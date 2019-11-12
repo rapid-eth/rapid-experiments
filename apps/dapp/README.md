@@ -1,7 +1,7 @@
-# cerebro
-The cerebro module is an experiment to understand the limits of 3Box in an a modern React environment.
+# RapidExperiments
+The RapidExperiments module is an experiment to understand the limits of 3Box in an a modern React environment.
 
-Simplifying the steps required to add decentralized authentication, storage and messaging. The cerebro repo is split into a monorepo to simplify module development and experimentation. The primary modules to get started are the `3box-ui-state` and `3box-ui-system` package, simplifying initializing a state provider and a components to interface between user interaction and the underlying `3box.js` methods.
+Simplifying the steps required to add decentralized authentication, storage and messaging. The RapidExperiments repo is split into a monorepo to simplify module development and experimentation. The primary modules to get started are the `3box-ui-state` and `3box-ui-system` package, simplifying initializing a state provider and a components to interface between user interaction and the underlying `3box.js` methods.
 
 ## Resources
 Before getting started with this repo, please reference the 3Box documentation and libraries.
@@ -10,8 +10,8 @@ Before getting started with this repo, please reference the 3Box documentation a
 
 ## Major Packages
 - 3Box UI State (3box-ui-state)
-- cerebro (3box-ui-system)
-- cerebro Render (3box-ui-system-render)
+- RapidExperiments (3box-ui-system)
+- RapidExperiments Render (3box-ui-system-render)
 - 3Box UI Profiles (3box-ui-profiles)
 - 3Box UI Profiles Stateless (3box-ui-profiles-stateless)
 
@@ -32,7 +32,7 @@ More developer documentation coming soon.
 - [ ] Add Complete UI System
 - [ ] Add Plugin System
 
-## cerebro Examples
+## RapidExperiments Examples
 Below is small sample of components to help enable rapid development.
 
 

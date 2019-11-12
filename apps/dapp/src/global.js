@@ -1,5 +1,5 @@
 module.exports = {
-  siteName: 'cerebro',
+  siteName: 'RapidExperiments',
   contact: {
     email: 'info@kamescg.com',
     twitter: '@kamescg',

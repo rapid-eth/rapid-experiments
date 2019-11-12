@@ -28,7 +28,7 @@ const SearchView = props => (
       />
       <Atom.Heading xxl>
         Developer Search -{' '}
-        <Atom.Span sx={{fontWeight: 300}}>Cerebro Connect</Atom.Span>
+        <Atom.Span sx={{fontWeight: 300}}>RapidExperiments Connect</Atom.Span>
       </Atom.Heading>
       <Atom.Flex alignCenter between sx={{flex: 1}}>
         <Atom.Flex sx={{flex: 4, py: 3}}>

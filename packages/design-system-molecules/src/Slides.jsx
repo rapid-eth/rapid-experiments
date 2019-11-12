@@ -60,7 +60,6 @@ const ComponentResize = ({item, setHeight, setWidth}) => {
       setHeight(size.height);
       setWidth(size.width);
     }
-    console.log(size, 'sizesize');
   }, [size]);
   return <Flex>{Component(item, {ref: ref})}</Flex>;
 };
