@@ -1,14 +1,18 @@
 # RapidExperiments
+
 The RapidExperiments module is an experiment to understand the limits of 3Box in an a modern React environment.
 
 Simplifying the steps required to add decentralized authentication, storage and messaging. The RapidExperiments repo is split into a monorepo to simplify module development and experimentation. The primary modules to get started are the `3box-ui-state` and `3box-ui-system` package, simplifying initializing a state provider and a components to interface between user interaction and the underlying `3box.js` methods.
 
 ## Resources
+
 Before getting started with this repo, please reference the 3Box documentation and libraries.
+
 - https://docs.3box.io/
 - https://www.npmjs.com/package/3box
 
 ## Major Packages
+
 - 3Box UI State (3box-ui-state)
 - RapidExperiments (3box-ui-system)
 - RapidExperiments Render (3box-ui-system-render)
@@ -26,6 +30,7 @@ Run: `cd packages/apps/dapp ; yarn start`
 More developer documentation coming soon.
 
 ## Development Planning
+
 - [x] Create MVC (Minimal Viable Code)
 - [ ] Test Current Approach
 - [ ] Calibrate Approach
@@ -33,22 +38,23 @@ More developer documentation coming soon.
 - [ ] Add Plugin System
 
 ## RapidExperiments Examples
+
 Below is small sample of components to help enable rapid development.
 
-
 ### Login
+
 ```js
-import { Login } from '@kames/3box-system'
-const Component = props => { 
- return(
-  <Login />
-)}
+import {Login} from '@kames/3box-system';
+const Component = props => {
+  return <Login />;
+};
 ```
 
 ### AccessProfile
+
 ```js
 import { AccessProfile } from '@kames/3box-system'
-const Component = props => { 
+const Component = props => {
  return(
   <AccessProfile>
     <MyFormComponent />
@@ -57,9 +63,10 @@ const Component = props => {
 ```
 
 ### AccessSpace
+
 ```js
 import { AccessSpace } from '@kames/3box-system'
-const Component = props => { 
+const Component = props => {
  return(
   <AccessSpace space='web3'>
     <MyFormComponent />
@@ -68,9 +75,10 @@ const Component = props => {
 ```
 
 ### AccessThread
+
 ```js
 import { AccessThread } from '@kames/3box-system'
-const Component = props => { 
+const Component = props => {
  return(
   <AccessThread
     space='web3'
@@ -85,34 +93,40 @@ const Component = props => {
 ```
 
 ### MessagePost
+
 ```js
-import { MessagePost } from '@kames/3box-system'
-const Component = props => { 
- return(
-   <MessagePost threadName='comments'>
-    <span>delete thread message</span>
-  </MessagePost>
-)}
+import {MessagePost} from '@kames/3box-system';
+const Component = props => {
+  return (
+    <MessagePost threadName="comments">
+      <span>delete thread message</span>
+    </MessagePost>
+  );
+};
 ```
 
 ### MessageDelete
+
 ```js
-import { MessageDelete } from '@kames/3box-system'
-const Component = props => { 
- return(
-   <MessageDelete threadName='comments' postId='123456689'>
-    <span>Delete Message</span>
-  </MessageDelete>
-)}
+import {MessageDelete} from '@kames/3box-system';
+const Component = props => {
+  return (
+    <MessageDelete threadName="comments" postId="123456689">
+      <span>Delete Message</span>
+    </MessageDelete>
+  );
+};
 ```
 
 ### ThreadJoin
+
 ```js
-import { ThreadJoin } from '@kames/3box-system'
-const Component = props => { 
- return(
-   <ThreadJoin space='web3' threadName='comments'  >
-    <span>Join Thread</span>
-  </ThreadJoin>
-)}
+import {ThreadJoin} from '@kames/3box-system';
+const Component = props => {
+  return (
+    <ThreadJoin space="web3" threadName="comments">
+      <span>Join Thread</span>
+    </ThreadJoin>
+  );
+};
 ```
