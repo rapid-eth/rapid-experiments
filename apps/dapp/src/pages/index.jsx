@@ -4,6 +4,7 @@ children.keys().forEach((key) => {
   const componentName = key.replace(/^.+\/([^/]+)\/index\.jsx/, '$1')
   module.exports[componentName] = children(key).default
 })
+console.log('module.exports', module.exports)
 
 
 // Search Nested Folders

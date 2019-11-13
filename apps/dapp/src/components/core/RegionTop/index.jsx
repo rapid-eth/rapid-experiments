@@ -42,6 +42,10 @@ export default props => (
               label: 'Misc',
               to: '/misc',
             },
+            {
+              label: 'Rimble',
+              to: '/rimble',
+            },
           ]}
         />
       </Atom.Flex>
